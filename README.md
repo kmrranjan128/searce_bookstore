@@ -4,10 +4,10 @@ Service side
 ------------
 django
 1)Download  https://github.com/kmrranjan128/searce_bookstore/blob/master/BookStore_App_Django.zip and unzip <br/>
-2)Create a virtual environment with python==3.6
-3)activate your virtual environment
-4)Go to your downloaded unzip folder location and install requirement.txt file.
-5)start project type python manage.py runserver.
+2)Create a virtual environment with python==3.6 <br/>
+3)activate your virtual environment<br/>
+4)Go to your downloaded unzip folder location and install requirement.txt file.<br/>
+5)start project type python manage.py runserver.<br/>
 
 
 Ui side

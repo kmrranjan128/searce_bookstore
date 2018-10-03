@@ -16,5 +16,5 @@ Angular 4<br/>
 dowload https://github.com/kmrranjan128/searce_bookstore/blob/master/Book%20Store%20UI.zip and unzip<br/>
 1)Go to your folder location and type npm install <br/>
 2) after installation type npm start<br/>
-Open your browser and hit url http://localhost:4200<br/>
+3)Open your browser and hit url http://localhost:4200<br/>
 

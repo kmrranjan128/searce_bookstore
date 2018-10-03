@@ -1,0 +1,94 @@
+Service Restful Api
+-------
+[GET]
+1) URL - http://127.0.0.1:8000/book_search/?book=Python
+
+Response
+--------
+{
+    "status code": "100-10003",
+    "book_information": [
+        {
+            "book_id": 1,
+            "book_number": "208915",
+            "book_name": "Python",
+            "book_type": "seven editor",
+            "book_author": "jesus rogel salazer",
+            "book_desc": "good good",
+            "image": "http://127.0.0.1:8000/static/book_images/208915.jpg"
+        }
+    ]
+}
+
+----------------------------------------------
+
+[GET]
+2) URL - http://127.0.0.1:8000/book_filter
+
+Response
+---------
+{
+    "status_code": "100-10003",
+    "book_filter": [
+        {
+            "book_name": "Python"
+        },
+        {
+            "book_name": "Java"
+        }
+    ]
+}
+---------------------------------------------------
+[POST]
+3 ) URL - http://127.0.0.1:8000/book_save
+
+Request
+-------
+{"book_name":"java",
+	"book_type":"seven editor",
+	"book_author":"kumar",
+	"book_desc":"good good",
+	"image":"base64"
+	}
+
+Response
+--------
+{
+    "status code": "100-10002",
+    "description": "Book sucessfully saved"
+}
+
+-------------------------------------------------
+
+[POST]
+4) URL -http://127.0.0.1:8000/book_update
+
+Request
+------
+{"book_name":"python",
+	"book_update":[{
+		"book_id":"1",
+		"book_name":"pathon",
+		"book_author":"kumar5",
+		"book_desc":"good book"
+	}]
+}
+
+Response
+---------
+{
+    "status code": "100-10004",
+    "description": "Book sucessfully updated"
+}
+
+-----------------------------------------------------
+
+[POST]
+5) url - http://127.0.0.1:8000/book_delete/?bookid=2
+
+Response
+-------
+{
+    "status code": "100-10007",
+    "description": "Book sucessfully deleted"
+}
